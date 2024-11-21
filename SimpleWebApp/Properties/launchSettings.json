@@ -18,13 +18,6 @@
       "dotnetRunMessages": true,
       "applicationUrl": "https://localhost:7216;http://localhost:5185"
     },
-    "IIS Express": {
-      "commandName": "IISExpress",
-      "launchBrowser": true,
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
-    },
     "Container (Dockerfile)": {
       "commandName": "Docker",
       "launchBrowser": true,
