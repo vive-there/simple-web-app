@@ -17,7 +17,7 @@ namespace SimpleWebApp.Pages
             this._configuration = configuration;
             _logger = logger;
             ImageVersion = this._configuration.GetValue<string>("GIT_HASH") ?? string.Empty;
-            Environment = this._configuration.GetValue<string>("ASPNETCORE_ENVIRONMENT") ?? string.Empty;
+            Environment = this._configuration.GetValue<string>("WEBSITE_HOSTNAME") ?? string.Empty;
         }
 
         public void OnGet()
