@@ -25,7 +25,9 @@
       "environmentVariables": {
         "ASPNETCORE_HTTPS_PORTS": "8081",
         "ASPNETCORE_HTTP_PORTS": "8080",
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "WEBSITE_HOSTNAME": "https://localhost:32773",
+        "GIT_HASH": "dev"
       },
       "publishAllPorts": true,
       "useSSL": true
